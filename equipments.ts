@@ -1,5 +1,3 @@
-import { DiceModel } from './dices';
-
 export interface EquipmentModel {
   readonly uniqueIdentifier: string;
   readonly name: string;
