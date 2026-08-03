@@ -5,7 +5,18 @@ export interface DiceModel {
   readonly sides: number;
 }
 
+export interface DiceRollModel {
+  readonly quantity: number;
+  readonly dice: DiceModel;
+}
+
 export const dices = {
+  d1: {
+    uniqueIdentifier: 'd1',
+    name: 'D1',
+    description: 'Dado de 1 lado',
+    sides: 1,
+  },
   d4: {
     uniqueIdentifier: 'd4',
     name: 'D4',
