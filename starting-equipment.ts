@@ -1,0 +1,1 @@
+// TODO: Implement the starting equipment logic for the character creation process. This will include defining the available equipment options
