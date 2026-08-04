@@ -20,19 +20,6 @@ export interface BackgroundModel {
   readonly startingEquipmentOptions: readonly StartingEquipmentOptionModel[];
 }
 
-/*
- * Os identificadores seguem os nomes em inglês do Player's Handbook.
- *
- * Para as proficiências que exigem a escolha de um tipo, este arquivo pressupõe
- * que tools possui os modelos genéricos:
- * - tools.artisansTools
- * - tools.musicalInstrument
- * - tools.gamingSet
- *
- * Os identificadores de gears também pressupõem camelCase em inglês. Ajuste-os
- * caso os nomes exportados pelos seus módulos sejam diferentes.
- */
-
 // Livro do Jogador: página 178
 export const backgrounds = {
   acolyte: {

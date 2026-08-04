@@ -237,7 +237,7 @@ export const tools = {
   gamingSet: {
     uniqueIdentifier: 'gamingSet',
     type: 'tool',
-    name: 'Kit de Jogos',
+    name: 'Kit de Jogos (baralho, dados, três dragões ou xadrez-do-dragão)',
     description: '',
     attribute: attributes.wisdom,
     utilize:
@@ -265,7 +265,7 @@ export const tools = {
   musicalInstrument: {
     uniqueIdentifier: 'musicalInstrument',
     type: 'tool',
-    name: 'Instrumento Musical',
+    name: 'Instrumento Musical (alaúde, charamela, flauta, flauta de pã, gaita de foles, lira, saltério, tambor, trombeta ou viola)',
     description: '',
     attribute: attributes.charisma,
     utilize: 'Tocar uma canção conhecida (CD 10) ou improvisar uma (CD 15)',
