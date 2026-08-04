@@ -3,6 +3,7 @@ import { DiceModel } from './dices';
 import { SkillModel } from './skills';
 import { ArmorTrainingModel } from './armor-training';
 import { WeaponProficiencyModel } from './weapon-proficiencies';
+import { StartingEquipmentOptionModel } from './starting-equipment-option';
 
 export interface ClassModel {
   readonly uniqueIdentifier: string;
@@ -19,6 +20,5 @@ export interface ClassModel {
     attribute: AttributeModel;
     score: number;
   };
-  // TODO: Too much equipment options, I'll need to create a new model for this, maybe EquipmentModel
-  // readonly startingEquipment: EquipmentModel[];
+  readonly startingEquipmentOptions: readonly StartingEquipmentOptionModel[];
 }
