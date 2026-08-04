@@ -497,4 +497,4 @@ export const gears = {
     name: 'Cantil',
     description: '',
   },
-} as Record<string, GearModel>;
+} as const satisfies Record<string, GearModel>;
